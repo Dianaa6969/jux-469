@@ -6,8 +6,8 @@
   <title>Continue </title>
 
   <!-- Meta Aman -->
-  <meta property="og:title" content="Continue ">
-  <meta property="og:description" content="Tap to view.">
+  <meta property="og:title" content="Continue">
+  <meta property="og:description" content="Tap to view">
   <meta property="og:image" content="https://i.imgur.com/5GjJwoM.jpeg">
   <meta name="theme-color" content="#25D366">
   <link rel="icon" type="image/jpeg" href="https://i.imgur.com/5GjJwoM.jpeg">
@@ -17,8 +17,7 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background: url('https://i.imgur.com/hzY7zvI.png') center/cover no-repeat fixed;
-      background-color: #075E54;
+      background-color: #075E54; /* Warna hijau gelap polos */
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -43,6 +42,12 @@
       margin: 15px 0;
       box-shadow: 0 4px 8px rgba(0,0,0,0.25);
       animation: shake 0.8s infinite;
+      transition: 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #1ebe5d;
+      transform: scale(1.03);
     }
 
     a.button img {
@@ -59,7 +64,6 @@
       100% { transform: translateX(0); }
     }
 
-    /* Tombol terakhir (Agree) */
     .agree {
       background-color: #25D366;
       animation: shake 0.8s infinite;
@@ -83,7 +87,7 @@
   <!-- Tombol 3 -->
   <a href="https://miu189.github.io/videsnyi/" class="button agree">
     <img src="https://cdn-icons-png.flaticon.com/512/845/845646.png" alt="Check"> 
-    Join live x
+    Join Live x
   </a>
 
 </body>
